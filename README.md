@@ -8,6 +8,7 @@ I'm a PostgreSQL Internals Engineer based in Madrid, passionate about data manag
 
 * __Enforce sorted scan__. The core feature suggests that when an SQL query includes an ORDER BY clause for a relation and a LIMIT clause, it is beneficial to have a sorted scan path among the possible scan operators during query optimisation. For instance, this could involve pushing the sort operation to the outer side of an OUTER JOIN. Branches: [master](https://github.com/danolivo/pgdev/tree/enforce-presorted-scan-on-query-pathkeys), [PG 18](https://github.com/danolivo/pgdev/tree/enforce-presorted-scan-on-query-pathkeys-pg18), [alternative-master](https://github.com/danolivo/pgdev/tree/bounded-left-join-outer), [alternative PG 18](https://github.com/danolivo/pgdev/tree/bounded-left-join-outer-v18); [notes](https://www.notion.so/Push-Sort-into-the-outer-of-OUTER-JOIN-329ca5f34df28038904fd0afbbe4daf8), [discussion](https://www.postgresql.org/message-id/flat/19a9265c-c441-4a43-bc0d-dac533438da0%40gmail.com).
 * __[Selectivity models](https://github.com/danolivo/pgdev/tree/selectivity-correlation-models)__. The core feature enables users to choose how to combine selectivity estimations on independent clauses. Essential feature in case when the query contains multi-filter or multi-join clause restrictions.
+* [Referenced generic plan](https://www.postgresql.org/message-id/19919494-92a8-4905-a250-6cf17b89f7c3@gmail.com).
 
 ### Extensions
 
