@@ -17,4 +17,4 @@ I'm a PostgreSQL Internals Engineer based in Madrid, passionate about data manag
 * [lolor](https://github.com/pgEdge/lolor). Contributor, not an original author. Dedicated to flexible management of large objects - moving out of the system catalogue, logically replicated, etc. 
 
 ### Experiments
-* [Batch insert(https://github.com/danolivo/pgdev/tree/lr-multi-insert) in logical replication. An attempt to employ the COPY multi-insert approach to quickly replicate massive batches of tuples. [specs](https://github.com/danolivo/pgdev/wiki/Technical-Specification:-Batched-Multi%E2%80%90Insert-for-PostgreSQL-Logical-Replication)
+* [Batch insert](https://github.com/danolivo/pgdev/tree/lr-multi-insert) in logical replication. An attempt to employ the COPY multi-insert approach to quickly replicate massive batches of tuples. [specs](https://github.com/danolivo/pgdev/wiki/Technical-Specification:-Batched-Multi%E2%80%90Insert-for-PostgreSQL-Logical-Replication)
