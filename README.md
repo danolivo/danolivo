@@ -15,3 +15,6 @@ I'm a PostgreSQL Internals Engineer based in Madrid, passionate about data manag
 * __[pg_track_optimizer](https://github.com/danolivo/pg_track_optimizer)__. An extension which is designed to reveal how _effectively_ the database instance executes queries. Provides multiple dimensionless metrics wrapped into a _statistics_ custom type to expose fluctuations of each parameter.
 * [safesession](https://github.com/danolivo/safesession). An extension that allows connection poolers and automation tools to change a connection to read-only mode, preventing any reversal through role changes or escalation of privileges. Inspired by the popularity of MCP servers and the necessity to give an AI agent database access.
 * [lolor](https://github.com/pgEdge/lolor). Contributor, not an original author. Dedicated to flexible management of large objects - moving out of the system catalogue, logically replicated, etc. 
+
+### Experiments
+* [Batch insert(https://github.com/danolivo/pgdev/tree/lr-multi-insert) in logical replication. An attempt to employ the COPY multi-insert approach to quickly replicate massive batches of tuples. [specs](https://github.com/danolivo/pgdev/wiki/Technical-Specification:-Batched-Multi%E2%80%90Insert-for-PostgreSQL-Logical-Replication)
