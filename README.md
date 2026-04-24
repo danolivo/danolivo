@@ -13,6 +13,7 @@ I'm a PostgreSQL Internals Engineer based in Madrid, passionate about data manag
 ### Extensions
 
 * __[pg_track_optimizer](https://github.com/danolivo/pg_track_optimizer)__. An extension which is designed to reveal how _effectively_ the database instance executes queries. Provides multiple dimensionless metrics wrapped into a _statistics_ custom type to expose fluctuations of each parameter.
+* __[pg_pathcheck](https://github.com/danolivo/pg_pathcheck)__. An extension that enables users of Postgres or PG fork to check (since PG19) potential vulnerabilities of the planner code.
 * [safesession](https://github.com/danolivo/safesession). An extension that allows connection poolers and automation tools to change a connection to read-only mode, preventing any reversal through role changes or escalation of privileges. Inspired by the popularity of MCP servers and the necessity to give an AI agent database access.
 * [lolor](https://github.com/pgEdge/lolor). Contributor, not an original author. Dedicated to flexible management of large objects - moving out of the system catalogue, logically replicated, etc. 
 
