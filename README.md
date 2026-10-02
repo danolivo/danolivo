@@ -21,6 +21,7 @@ I'm a PostgreSQL Internals Engineer based in Madrid, passionate about data manag
 ### Experiments
 * [Batch insert](https://github.com/danolivo/pgdev/tree/lr-multi-insert) in logical replication. An attempt to employ the COPY multi-insert approach to quickly replicate massive batches of tuples. [specs](https://github.com/danolivo/pgdev/wiki/Technical-Specification:-Batched-Multi%E2%80%90Insert-for-PostgreSQL-Logical-Replication), [Design](https://github.com/danolivo/pgdev/wiki/Batched-Multi%E2%80%90Insert-for-Logical-Replication-Apply-—-Design-Explanation).
 New version (REL_18_STABLE based) [here](https://github.com/danolivo/pgdev/tree/lr-multi-insert-hooks-v2).
+* [Parallel aggregate](https://github.com/danolivo/pgdev/tree/repartition)
 
 ## PGP Public Key
 
